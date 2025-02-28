@@ -132,9 +132,6 @@
     .reasons{
         flex-direction: column;
     }
-    .review-mid{
-        padding: 0px 8px;
-    }
     .review-mid h3{
         font-size: 30px;
         font-weight: 600;
@@ -144,9 +141,6 @@
     }
     .student-reviews{
         flex-direction: column;
-    }
-    .course-start-div{
-        padding: 0px 6px;
     }
     .course-start{
         background-size: 200px 350px, 200px 350px;
@@ -165,9 +159,6 @@
         margin-left: 19%;
         font-size: 18px;
         font-weight: 500;
-    }
-    .faq-mid{
-        padding: 0px 6px;
     }
     .faq-mid h3{
         font-size: 30px;
