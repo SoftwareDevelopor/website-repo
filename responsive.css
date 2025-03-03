@@ -14,11 +14,11 @@
         bottom: 0px;
     }
     #banner{
-        max-width: 100%;
+        max-width: 547px;
     }
     .banner-mid{
-        max-width: 100%;
-        padding: 10px 6px;
+        width: 100%;
+        margin-left:0px;
     }
     .upper-banner{
         flex-direction: column;
@@ -58,11 +58,11 @@
         display: none;
     }
     #key-highlights{
-        max-width: 100%;
+        max-width: 547px;
     }
     .key-mid{
         width: 100%;
-        padding: 0px 8px;
+        margin-left:0px;
     }
     .key-mid h4{
         font-size: 25px;
@@ -82,8 +82,12 @@
         font-weight: 500;
         margin-left: 15%;
     }
+    #career-options{
+        max-width:547px;
+    }
     .career-mid{
-        padding: 0px 8px;
+        margin-left:0px;
+        width:100%;
     }
     .career-mid>h3{
         font-size: 30px;
