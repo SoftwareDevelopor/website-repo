@@ -1,10 +1,11 @@
 @media only screen and (min-width: 200px) and (max-width: 575px) {
     header{
-        max-width: 100%;
+        max-width: 575px;
     }
     .header-mid{
         width: 100%;
         flex-direction: column;
+        margin-left: 0px;
     }
     .header-right{
         display: flex;
@@ -13,11 +14,11 @@
         bottom: 0px;
     }
     #banner{
-        max-width: 100%;
+        max-width: 575px;
     }
     .banner-mid{
-        max-width: 100%;
-        padding: 10px 6px;
+        width: 100%;
+        margin-left: 0px;
     }
     .upper-banner{
         flex-direction: column;
@@ -57,11 +58,12 @@
         display: none;
     }
     #key-highlights{
-        max-width: 100%;
+        max-width: 575px;
     }
     .key-mid{
         width: 100%;
-        padding: 0px 8px;
+        margin-left: 0px;
+        
     }
     .key-mid h4{
         font-size: 25px;
@@ -81,8 +83,12 @@
         font-weight: 500;
         margin-left: 15%;
     }
+    #career-options{
+        max-width: 575px;
+}
     .career-mid{
-        padding: 0px 8px;
+        width: 100%;
+        margin-left: 0px;
     }
     .career-mid>h3{
         font-size: 30px;
@@ -93,17 +99,25 @@
     .career-mid-cards{
         flex-direction: column;
     }
+    #get-certified{
+        max-width: 575px;
+    }
     .get-certified-mid{
-        padding: 0px 10px;
+        width: 100%;
         flex-direction: column;
+        margin-left: 0px;
     }
     .certified-right{
         background-size: 100px 100px, 130px 130px;
         background-position: 0.3% 2.5% , 98% 100%;
         padding: 25px;
     }
+    #curriculum{
+        max-width: 575px;
+    }
     .curriculum-mid{
-        padding: 0px 10px;
+        width: 100%;
+        margin-left: 0px;
     }
     .curriculum-mid>h3{
         font-size: 30px;
@@ -119,8 +133,12 @@
         font-weight: 600;
         margin-left: 20%;
     }
+    #learn{
+        max-width: 575px;
+    }
     .learn-mid{
-        padding: 0px 8px;
+        width: 100%;
+        margin-left: 0px;
     }
     .learn-mid p{
         line-height: 25px;
@@ -131,6 +149,13 @@
     }
     .reasons{
         flex-direction: column;
+    }
+    #reviews{
+        max-width: 575px;
+    }
+    .review-mid{
+        width: 100%;
+        margin-left: 0px;
     }
     .review-mid h3{
         font-size: 30px;
@@ -159,6 +184,13 @@
         margin-left: 19%;
         font-size: 18px;
         font-weight: 500;
+    }
+    #FAQs{
+        max-width: 575px;
+    }
+    .faq-mid{
+        width: 100%;
+        margin-left: 0px;
     }
     .faq-mid h3{
         font-size: 30px;
