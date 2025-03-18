@@ -1,11 +1,6 @@
 @media only screen and (min-width: 200px) and (max-width: 575px) {
-    header{
-        max-width: 575px;
-    }
     .header-mid{
-        width: 100%;
         flex-direction: column;
-        margin-left: 0px;
     }
     .header-right{
         display: flex;
@@ -13,12 +8,8 @@
         position: fixed;
         bottom: 0px;
     }
-    #banner{
-        max-width: 575px;
-    }
     .banner-mid{
-        width: 100%;
-        margin-left: 0px;
+        padding: 15px;
     }
     .upper-banner{
         flex-direction: column;
@@ -54,16 +45,15 @@
     .btn1{
         background: white;
     }
+    .banner-right form .form-box{
+        width: 100%;
+        line-height: 28px;
+    }
     .banner-right form::after{
         display: none;
     }
-    #key-highlights{
-        max-width: 575px;
-    }
     .key-mid{
-        width: 100%;
-        margin-left: 0px;
-        
+        padding: 15px;
     }
     .key-mid h4{
         font-size: 25px;
@@ -81,14 +71,9 @@
         padding: 10px 16px 10px 16px;
         font-size: 16px;
         font-weight: 500;
-        margin-left: 15%;
     }
-    #career-options{
-        max-width: 575px;
-}
     .career-mid{
-        width: 100%;
-        margin-left: 0px;
+        padding: 15px;
     }
     .career-mid>h3{
         font-size: 30px;
@@ -99,25 +84,17 @@
     .career-mid-cards{
         flex-direction: column;
     }
-    #get-certified{
-        max-width: 575px;
-    }
     .get-certified-mid{
-        width: 100%;
         flex-direction: column;
-        margin-left: 0px;
+        padding: 15px;
     }
     .certified-right{
         background-size: 100px 100px, 130px 130px;
         background-position: 0.3% 2.5% , 98% 100%;
         padding: 25px;
     }
-    #curriculum{
-        max-width: 575px;
-    }
     .curriculum-mid{
-        width: 100%;
-        margin-left: 0px;
+        padding: 15px;
     }
     .curriculum-mid>h3{
         font-size: 30px;
@@ -131,14 +108,9 @@
         width: 200px;
         padding: 10px 16px 10px 16px;
         font-weight: 600;
-        margin-left: 20%;
-    }
-    #learn{
-        max-width: 575px;
     }
     .learn-mid{
-        width: 100%;
-        margin-left: 0px;
+        padding: 15px;
     }
     .learn-mid p{
         line-height: 25px;
@@ -150,12 +122,8 @@
     .reasons{
         flex-direction: column;
     }
-    #reviews{
-        max-width: 575px;
-    }
     .review-mid{
-        width: 100%;
-        margin-left: 0px;
+        padding: 15px;
     }
     .review-mid h3{
         font-size: 30px;
@@ -185,12 +153,8 @@
         font-size: 18px;
         font-weight: 500;
     }
-    #FAQs{
-        max-width: 575px;
-    }
     .faq-mid{
-        width: 100%;
-        margin-left: 0px;
+        padding: 15px;
     }
     .faq-mid h3{
         font-size: 30px;
@@ -202,10 +166,9 @@
     }
     .faq-mid button{
         width: 200px;
-        margin-left: 15%;
     }
     .top-mid{
-        padding: 0px 6px;
+        padding: 15px;
     }
     .top-mid h4{
         font-size: 30px;
@@ -216,18 +179,13 @@
         margin: auto;
     }
     .footer-mid{
-        padding: 0px 6px;
+        padding: 15px;
     }
     .footer-mid>p{
         text-align: justify;
     }
     .footer-mid figure{
         width: 130px;
-
-    }
-    img{
-        width: 100%;
-        height: 100%;
     }
     .botton-footer{
         text-align: center;
@@ -235,9 +193,6 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 991px){
-    header{
-        max-width: 100%;
-    }
     .header-mid{
         width: 100%;
         padding: 5px 10px;
@@ -246,7 +201,7 @@
         max-width: 100%;
     }
     .banner-mid{
-        padding: 0px 5px;
+        padding: 15px;
     }
     .upper-banner{
         gap: 2%;
@@ -267,10 +222,10 @@
         display: none;
     }
     .key-mid, .curriculum-mid, .learn-mid{
-        padding: 0px 5px;
+        padding: 15px;
     }
     .get-certified-mid{
-        padding: 0px 5px;
+        padding: 15px;
         gap: 10px;
     }
     .certified-right{

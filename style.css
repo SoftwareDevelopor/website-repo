@@ -309,13 +309,15 @@ h1 .digital-marketing{
 .hctnt>p{
     font-size: 14px;
 }
-.key-mid>.key-btn{
-    width: 250px;
-    height: 60px;
+.btn{
+    text-align: center;
+}
+.key-mid>.btn{
+    /* width: 250px;
+    height: 100%;
     padding: 16px 48px 16px 48px;
     border-radius: 10px;
     border: none;
-    margin: 20px 40%;
     text-align: center;
     font-size: 20px;
     font-family: "Inter",sans-serif;
@@ -323,7 +325,8 @@ h1 .digital-marketing{
     color: white;
     cursor: pointer;
     background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
-    box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
+    box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61; */
+    
 }
 #career-options{
     width: 100%;
@@ -392,7 +395,7 @@ h1 .digital-marketing{
 .certified-left{
     flex-basis: 45%;
 }
-.certified-left>button{
+.certified-left>.btn>button{
     width: 250px;
     height: 60px;
     border: none;
@@ -547,7 +550,6 @@ h1 .digital-marketing{
     font-family: "Inter", sans-serif;
     font-weight: 700;
     margin-top: 30px;
-    margin-left: 40%;
     color: white;
     cursor: pointer;
 }
@@ -718,7 +720,6 @@ h1 .digital-marketing{
     font-family: "Inter", sans-serif;
     font-weight: 700;
     padding: 16px 48px 16px 48px;
-    margin: 10px 40%;
     cursor: pointer;
 }
 #FAQs{
@@ -799,7 +800,7 @@ h1 .digital-marketing{
     background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
     box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
     border-radius: 8px;
-    margin: 25px 40%;
+    
     cursor: pointer;
 }
 #top-companies{
