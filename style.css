@@ -312,22 +312,6 @@ h1 .digital-marketing{
 .btn{
     text-align: center;
 }
-.key-mid>.btn{
-    /* width: 250px;
-    height: 100%;
-    padding: 16px 48px 16px 48px;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-    font-size: 20px;
-    font-family: "Inter",sans-serif;
-    font-weight: 700;
-    color: white;
-    cursor: pointer;
-    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
-    box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61; */
-    
-}
 #career-options{
     width: 100%;
     padding: 70px 0px;
@@ -749,50 +733,39 @@ h1 .digital-marketing{
 }
 .faqs{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    gap: 20px;
+    /* gap: 30px; */
 }
-.faq:nth-child(1){
+.faq{
+    width: 100%;
     border: 1px solid #2699FB;
     background: white;
-    padding: 20px 15px;
+    /* padding: 5px 15px; */
     font-size: 22px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
     border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
-.faq:nth-child(1) h5{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+.faq h5{
+    padding: 15px 10px;
+    /* margin-bottom: 15px; */
     color: #2699FB;
-    text-align: center;
+    position: relative;
 }
-.faq:nth-child(1) p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
+.faq h5 span{
+    position: absolute;
+    right: 8px;
 }
-.faq:nth-child(2), .faq:nth-child(3), .faq:nth-child(4){
-    width: 100%;
-    height: 60px;
-    border: none;
-    background: white;
-    padding: 20px 15px;
-    text-align: center;
-    border-radius: 8px;
+.faq .ans{
+    padding: 10px;
+    display: none;
 }
-.faq:nth-child(2) h5, .faq:nth-child(3) h5, .faq:nth-child(4) h5{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    font-size: 18px;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+
+.show{
+    display: block !important;
 }
+
 .faq-mid button{
     width: 250px;
     height: 60px;
@@ -800,7 +773,7 @@ h1 .digital-marketing{
     background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
     box-shadow: 0px 1px 2px 0px #1018280D, 0px 4px 14px 2px #2699FB61;
     border-radius: 8px;
-    
+    /* margin-top: 20px; */
     cursor: pointer;
 }
 #top-companies{
